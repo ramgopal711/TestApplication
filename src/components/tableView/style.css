@@ -1,0 +1,40 @@
+.inShare-table {
+  border: solid 1px #b5d9ff;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font: normal 13px Arial, sans-serif;
+  width: 90%;
+}
+.inShare-table thead th {
+  background-color: #b5d9ff;
+  border: solid 1px #b5d9ff;
+  color: #212529;
+  padding: 10px;
+  text-align: left;
+}
+
+.inShare-table tbody td {
+  border: solid 1px #b5d9ff;
+  color: #333;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.btn-action {
+  padding: 0;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 10px;
+  background-color: #003164;
+  color: #ecf0f1;
+  transition: background-color 0.3s;
+  margin: 3px 10px 3px 0;
+  width: 50px;
+  height: 20px;
+}
+
+.btn-action:hover,
+.btn-action:focus {
+  background-color: #439eff;
+}

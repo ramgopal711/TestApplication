@@ -1,0 +1,11 @@
+.header {
+  background: #003164;
+  color: #ebf5ff;
+  padding: 32px;
+}
+
+.titleName {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}

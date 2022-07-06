@@ -1,0 +1,34 @@
+.productContainer {
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+}
+/*Button style*/
+.btn {
+  display: block;
+  padding: 8px;
+  border-width: 0;
+  outline: none;
+  border-radius: 6px;
+  background-color: #003164;
+  color: #ecf0f1;
+  transition: background-color 0.3s;
+  margin: 15px 0 15px 0;
+  width: fit-content;
+}
+
+.btn:hover {
+  background-color: #439eff;
+}
+
+.btn > * {
+  position: relative;
+}
+
+.btn span {
+  display: block;
+}
